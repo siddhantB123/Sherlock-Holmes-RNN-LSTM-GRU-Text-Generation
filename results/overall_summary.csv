@@ -1,0 +1,5 @@
+Model,Test PPL,Test acc,Test top-5 acc,Train time (s),Params,Bigram plausibility,Reference PPL,Distinct-1,Distinct-2,Repetition (trigram),Context consistency,Mean rank (lower = better)
+GRU,134.829,0.186,0.4,407.708,1852170,0.798,244.706,0.752,0.961,0.007,0.709,1.125
+LSTM,147.856,0.184,0.393,576.086,1942794,0.784,304.955,0.729,0.94,0.011,0.696,2.438
+SimpleRNN,157.48,0.168,0.372,203.083,1668618,0.759,330.985,0.729,0.94,0.008,0.719,2.562
+BiRNN,176.786,0.159,0.353,274.396,2891018,0.754,332.039,0.727,0.939,0.012,0.7,3.875
